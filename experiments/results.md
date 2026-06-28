@@ -50,3 +50,16 @@ prioritized over Precision in model selection.
 ## Saved Files
 - model/phishing_model.pkl   → trained Random Forest
 - model/feature_names.pkl    → list of 20 expected features
+
+## Known Limitations
+- API accepts pre-computed features, not raw URLs
+- Feature extraction from raw URLs could not perfectly
+  recreate the original dataset's computation methods
+- IsHTTPS removed because modern phishing sites 
+  increasingly use HTTPS — unreliable signal
+
+## Future Improvements
+- Build custom dataset from scratch with own feature extractor
+- Train and deploy using same feature extraction code
+- Add more models for comparison (XGBoost, Logistic Regression)
+- Add raw URL input support once feature extractor is built
