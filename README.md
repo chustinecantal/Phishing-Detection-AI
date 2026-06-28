@@ -10,18 +10,18 @@ REST API with FastAPI.
 \```
 phishing-detection-ai/
 ├── data/
-│   ├── raw/          → original dataset
-│   └── processed/    → cleaned data
+│   ├── raw/          
+│   └── processed/   
 ├── notebooks/
-│   └── 01_eda.ipynb  → EDA and model training
+│   └── 01_eda.ipynb  
 ├── model/
-│   ├── train.py      → training script
-│   ├── evaluate.py   → evaluation script
-│   └── phishing_model.pkl → saved model
+│   ├── train.py      
+│   ├── evaluate.py  
+│   └── phishing_model.pkl 
 ├── api/
-│   └── main.py       → FastAPI endpoint
+│   └── main.py       
 ├── experiments/
-│   └── results.md    → experiment results
+│   └── results.md    
 └── requirements.txt
 \```
 
