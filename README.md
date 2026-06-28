@@ -7,7 +7,7 @@ REST API with FastAPI.
 ---
 
 ## Project Structure
-\```
+```
 phishing-detection-ai/
 ├── data/
 │   ├── raw/          
@@ -23,7 +23,7 @@ phishing-detection-ai/
 ├── experiments/
 │   └── results.md    
 └── requirements.txt
-\```
+```
 
 ## Dataset
 - 235,795 URLs (legitimate and phishing)
