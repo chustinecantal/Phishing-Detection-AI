@@ -1,4 +1,4 @@
-# Intelligent Phishing Detection System
+# PHISHERMAN
 
 A machine learning system that detects phishing URLs 
 using Random Forest classification, deployed as a 
